@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Minimal Detail Principle
+slug: minimal-detail
 excerpt: The minimal detail principle is an observation in the style of the SOLID principles of software engineering, applied to an imagined world of high-altitude development.
 date: 2020-06-01
 updatedDate: 2020-06-01
@@ -9,7 +10,7 @@ tags:
   - concept
 ---
 
-*The minimal detail principle is an observation in the style of the [SOLID principles](https://en.wikipedia.org/wiki/SOLID) of software engineering, applied to an imagined world of [/blog/haste/](/blog/haste/).*
+*The minimal detail principle is an observation in the style of the [SOLID principles](https://en.wikipedia.org/wiki/SOLID) of software engineering, applied to an imagined world of [[High-Altitude Software and Test Engineering|high-altitude development]].*
 
 We are taught that a programmer's job is to precisely encode some desired logic and ensure that it exhibits exactly the right behaviour in a variety of edge cases. The devil is in the detail, and details as benign as a missing semicolon can make or break the entire system.
 
@@ -21,11 +22,11 @@ Architecture and design are important to structure our lines of code and keep th
 
 Requiring every line of code to be perfect is a rather maximalist approach to software development. The difficulty of the job scales with the complexity of the system.
 
-[/blog/haste](/blog/haste) is the notion of working only at the higher level of requirements, design and testing --- explicitly avoiding the responsibility of writing code. If feasible, this is not only more interesting, but opens up a new realm of possibilities.
+[High-altitude development](/blog/haste) is the notion of working only at the higher level of requirements, design and testing --- explicitly avoiding the responsibility of writing code. If feasible, this is not only more interesting, but opens up a new realm of possibilities.
 
 ---
 
-[/blog/antifragile-software](/blog/antifragile-software) will be self-improving by some mechanism akin to evolution. This brings into play the concepts of [evolutionary](https://en.wikipedia.org/wiki/Evolutionary_programming) and [genetic programming](https://en.wikipedia.org/wiki/Genetic_programming).
+[Truly antifragile software](/blog/antifragile-software) will be self-improving by some mechanism akin to evolution. This brings into play the concepts of [evolutionary](https://en.wikipedia.org/wiki/Evolutionary_programming) and [genetic programming](https://en.wikipedia.org/wiki/Genetic_programming).
 
 What might these look like without code?
 

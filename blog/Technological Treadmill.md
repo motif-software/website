@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Technological Treadmill
+slug: treadmill
 excerpt: Technology keeps changing at the same rate no matter what the task.
 date: 2020-05-31
 updatedDate: 2020-05-31

@@ -10,24 +10,31 @@ module.exports = {
     "navbar": {
       "title": "",
       "logo": {
-        "alt": "",
+        "alt": "Logo",
         "src": "static/img/logo.png"
       },
       "items": [
         {
-          "to": "docs/about",
-          "label": "About",
-          "position": "left"
+          "label": "My Docs",
+          "to": "/docs/"
         },
         {
-          "to": "docs/projects",
-          "label": "Projects",
-          "position": "left"
+          "label": "Menu",
+          "type": "dropdown",
+          "items": [
+            {
+              "label": "Docs Landing Page",
+              "to": "/docs/"
+            },
+            {
+              "label": "Label",
+              "to": "/docs/"
+            }
+          ]
         },
         {
-          "to": "blog",
           "label": "Blog",
-          "position": "left"
+          "to": "/blog"
         }
       ]
     },

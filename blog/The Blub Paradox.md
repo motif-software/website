@@ -1,6 +1,6 @@
 ---
 layout: post
-alias: blub
+slug: blub
 title: The Blub Paradox
 excerpt: "Or: some languages really are better than others"
 date: 2020-05-31
@@ -11,7 +11,7 @@ tags:
   - language
 ---
 
-[Paul Graham](Paul Graham) is, among many things, a computer scientist, entrepreneur, and founder of [Y Combinator](https://www.ycombinator.com/). He's also an excellent essayist.
+[[Paul Graham]] is, among many things, a computer scientist, entrepreneur, and founder of [Y Combinator](https://www.ycombinator.com/). He's also an excellent essayist.
 
 The Blub Paradox is a concept from his essay [Beating the Averages](http://www.paulgraham.com/avg.html). You should certainly go and read that, but I'll summarise it here for completeness of the Motif canon.
 
@@ -47,4 +47,4 @@ Working backwards: success came from competitive advantage, forged by wielding t
 
 > 1. Regardless of your environment, the first step is outside of your comfort zone. Explore unfamiliar languages, learn about their features and mental models, and be the talent that can propose that choice.
 
-> 2.The second is to find --- or create --- the environment within which such a choice could be made. Seek out or propose greenfield projects, and involve others who are agitating to try new things. Startups get this for free; in the enterprise it's the concept of [intrapreneurship](intrapreneurship).
+> 2.The second is to find --- or create --- the environment within which such a choice could be made. Seek out or propose greenfield projects, and involve others who are agitating to try new things. Startups get this for free; in the enterprise it's the concept of [[intrapreneurship]].

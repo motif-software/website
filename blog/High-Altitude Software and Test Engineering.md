@@ -1,6 +1,6 @@
 ---
 layout: post
-alias: haste
+slug: haste
 title: High-Altitude Software and Test Engineering
 excerpt: An effort to eliminate toil of boilerplate and escape the technological treadmill that drains so much development time (and money). Ultimately it's an effort to supersede most programming altogether.
 date: 2020-05-31
@@ -12,7 +12,7 @@ tags:
 
 High-Altitude Software and Test Engineering (or HASTE to coin a catchy backronym) is a theory for a new approach to software development.
 
-It is an effort to eliminate toil of [boilerplate](boilerplate) and escape the [Technological Treadmill](Technological Treadmill) that drains so much development time (and money). Ultimately it's an effort to supersede most programming altogether.
+It is an effort to eliminate toil of [[boilerplate]] and escape the [[Technological Treadmill]] that drains so much development time (and money). Ultimately it's an effort to supersede most programming altogether.
 
 What follows is a brief summary. The key concepts will be explored separately in more detail.
 
@@ -36,33 +36,33 @@ But it is feasible for small, relatively simple systems, or for experimental, pr
 
 This is not a new question, and many techniques have been developed over the years.[^1] Here are some that might help (with some links to deeper dives):
 
-An [Ontology](Ontology) is a kind of system of classification and vocabulary for describing a domain. If we're not writing the code ourselves, we'll need an ontology for the elements of software in order to discuss higher-level concepts. We would then combine those elements into a system specification.
+An [[Ontology]] is a kind of system of classification and vocabulary for describing a domain. If we're not writing the code ourselves, we'll need an ontology for the elements of software in order to discuss higher-level concepts. We would then combine those elements into a system specification.
 
-[Design patterns](Design patterns) are a prominent technique for describing standard, abstract solutions to common software design problems. These would offer some well-known concepts to such an ontology.
+[[Design patterns]] are a prominent technique for describing standard, abstract solutions to common software design problems. These would offer some well-known concepts to such an ontology.
 
-[Code generation](Code generation) is the process of transforming some data into executable source code. Clearly this will play the lead role in turning our system specification into an implementation.
+[[Code generation]] is the process of transforming some data into executable source code. Clearly this will play the lead role in turning our system specification into an implementation.
 
-Generated code will involve **[languages](programming language)**, **[frameworks](Software frameworks)** and **[libraries](Software libraries)**: concrete components that can be reused by different projects. Since we're interested in the specification, not the implementation, we don't really care which of these are used; that's a concern of the code generation system.[^2]
+Generated code will involve **[[programming language|languages]]**, **[[Software frameworks|frameworks]]** and **[[Software libraries|libraries]]**: concrete components that can be reused by different projects. Since we're interested in the specification, not the implementation, we don't really care which of these are used; that's a concern of the code generation system.[^2]
 
 Therefore the code generator will require an **encyclopedia** (an extensive catalogue) of the languages, frameworks and libraries that are available. Each entry must describe how the component corresponds to a concept in the ontology, and how to generate the code to implement that concept --- and integrate with other generated code.
 
-So how do we interface with all this? [Design diagrams](Design diagrams) are a standard means of communicating software designs. Tools to generate code from diagrams exist, but in practice software quickly becomes more complicated than a diagram can usefully describe. Perhaps by restricting ourselves to a sufficiently abstract ontology, we can avert such complication from the outset?
+So how do we interface with all this? [[Design diagrams]] are a standard means of communicating software designs. Tools to generate code from diagrams exist, but in practice software quickly becomes more complicated than a diagram can usefully describe. Perhaps by restricting ourselves to a sufficiently abstract ontology, we can avert such complication from the outset?
 
 ---
 
 **If we suppose such an endeavour is possible, how would we build it?**
 
-At first glance, an "[ontology](ontology) of software" may seem the least tractable. However it seems that as the universe of software grows, it grows increasingly regular. We could get a lot of bang-per-buck with a few simple concepts like "[App](App)", "[Web Server](Web Server)" and "[Database](Database)".
+At first glance, an "[[ontology]] of software" may seem the least tractable. However it seems that as the universe of software grows, it grows increasingly regular. We could get a lot of bang-per-buck with a few simple concepts like "[[App]]", "[[Web Server]]" and "[[Database]]".
 
-This is the kind of philosophical navel-gazing that entertains a certain kind of software engineer... so of course Motif is developing one such ontology called [Metal](Motif Metal).
+This is the kind of philosophical navel-gazing that entertains a certain kind of software engineer... so of course Motif is developing one such ontology called [[Motif Metal|Metal]].
 
 The world already contains many excellent patterns and languages, and a densely populated cross-product of frameworks and libraries.
 
-In practice, the encyclopedia mapping the ontology onto the landscape of existing components --- along with how to generate their code --- will be the toughest challenge. Motif is tackling this with [Metro](Motif Metro).
+In practice, the encyclopedia mapping the ontology onto the landscape of existing components --- along with how to generate their code --- will be the toughest challenge. Motif is tackling this with [[Motif Metro|Metro]].
 
-Even if the machinery can be built, the user interface presents a different kind of challenge. How can such a vast and technical problem space be condensed into a user-friendly app that fits on a screen? Motif seeks to answer this with [Mason](Motif Mason).
+Even if the machinery can be built, the user interface presents a different kind of challenge. How can such a vast and technical problem space be condensed into a user-friendly app that fits on a screen? Motif seeks to answer this with [[Motif Mason|Mason]].
 
-Finally, all of content is going to need to be serialised to text for version control. Whether you're working with lines of code, an RDF [triplestore](triplestore), or an [ontology](ontology), you should be able to edit whatever representation you prefer: plain text, class diagram, flowchart, etc. [Mirror](Motif Mirror) is that editor.
+Finally, all of content is going to need to be serialised to text for version control. Whether you're working with lines of code, an RDF [[triplestore]], or an [[ontology]], you should be able to edit whatever representation you prefer: plain text, class diagram, flowchart, etc. [[Motif Mirror|Mirror]] is that editor.
 
 #### Let's give it a try
 
@@ -72,7 +72,7 @@ Consider some task you performed recently (at work or home) that could theoretic
 
 If it were as simple as just drawing that diagram, would you do it? How would it feel to solve your own problems with your own software?
 
-Motif's mission is to make this possible; to bring software creation to the masses. If you're interested, [/contact](/contact) or get involved on [GitHub](https://github.com/motif-software).
+Motif's mission is to make this possible; to bring software creation to the masses. If you're interested, [contact us](/contact) or get involved on [GitHub](https://github.com/motif-software).
 
 
 [^1]: Many very smart people have tackled this problem, and I’m drawing a lot from their efforts. It is arguably the fundamental question of software engineering, as far back as the coining of the phrase in the late 1960s.

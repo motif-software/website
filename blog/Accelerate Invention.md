@@ -11,7 +11,7 @@ tags:
   - motif
 ---
 
-Accelerating [Invention](Invention) is one pillar of Motif’s mission (see also [Empower Diversity](Empower Diversity)).
+Accelerating [[Invention]] is one pillar of Motif’s mission (see also [[Empower Diversity]]).
 
 
 ### On Technology

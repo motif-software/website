@@ -1,21 +1,22 @@
 module.exports = {
   "docs": [
-    "Website About",
-    "Website Motif",
     {
-      "Projects": [
-        "Website Projects",
-        "Motif Metal",
-        "Motif Metro",
-        "Motif Mason",
-        "Motif Mirror",
-        "Motif Mission"
-      ]
+      "type": "doc",
+      "id": "Docs Landing Page",
+      "label": "Welcome"
     },
     {
-      "Principles": [
-        "Accelerate Invention",
-        "Empower Diversity"
+      "type": "doc",
+      "id": "Page Simple",
+      "label": "Page Simple"
+    },
+    {
+      "This Plugin": [
+        {
+          "type": "doc",
+          "id": "Obsidian to Docusaurus Mapping",
+          "label": "Mappings"
+        }
       ]
     }
   ]

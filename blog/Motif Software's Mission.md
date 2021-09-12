@@ -1,6 +1,6 @@
 ---
 layout: post
-alias: mission
+slug: mission
 title: The Motif Mission
 excerpt: Accelerate invention by everyone
 date: 2020-05-28
@@ -12,7 +12,7 @@ tags:
   - mission
 ---
 
-[Motif Software](Motif Software)'s mission is to deliver on the following goals:
+[[Motif Software]]'s mission is to deliver on the following goals:
 
-- [Accelerate Invention](Accelerate Invention)
-- [Empower Diversity](Empower Diversity)
+- [[Accelerate Invention]]
+- [[Empower Diversity]]
