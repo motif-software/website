@@ -11,13 +11,21 @@ tags:
   - motif
 ---
 
+<<<<<<< HEAD
 Empowering diversity is one pillar of Motif's mission (see also [Accelerate Invention](Accelerate Invention)).
+=======
+Empowering diversity is one pillar of Motif's mission (see also [[Accelerate Invention]]).
+>>>>>>> cdc2024 (Export)
 
 Diversity means many things to many people. This is about what it means to Motif.
 
 ### Diversity of access
 
+<<<<<<< HEAD
 “Software is eating the world”, wrote [Marc Andreessen](Marc Andreessen) almost a decade ago. By now the world is well into software's lower intestine. Software is power. Software engineering is among the most sought-after and lucrative professional skills, and one of the few that is unlikely to be hurt by the coming wave of automation — it will likely even benefit.
+=======
+“Software is eating the world”, wrote [[Marc Andreessen]] almost a decade ago. By now the world is well into software's lower intestine. Software is power. Software engineering is among the most sought-after and lucrative professional skills, and one of the few that is unlikely to be hurt by the coming wave of automation — it will likely even benefit.
+>>>>>>> cdc2024 (Export)
 
 It's great work… if you can get it.
 

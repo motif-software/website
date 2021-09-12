@@ -15,22 +15,12 @@ module.exports = {
       },
       "items": [
         {
-          "label": "My Docs",
-          "to": "/docs/"
+          "label": "About",
+          "to": "/docs/about"
         },
         {
-          "label": "Menu",
-          "type": "dropdown",
-          "items": [
-            {
-              "label": "Docs Landing Page",
-              "to": "/docs/"
-            },
-            {
-              "label": "Label",
-              "to": "/docs/"
-            }
-          ]
+          "label": "Projects",
+          "to": "/docs/projects"
         },
         {
           "label": "Blog",
