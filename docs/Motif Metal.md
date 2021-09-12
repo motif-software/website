@@ -4,11 +4,7 @@ tags:
 - product
 ---
 
-<<<<<<< HEAD
-[Motif Software](Website Motif) #product
-=======
 [[Website Motif|Motif Software]] #product
->>>>>>> cdc2024 (Export)
 
 ### An ontology of the elements of software
 
